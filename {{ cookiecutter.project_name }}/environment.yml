@@ -1,0 +1,13 @@
+{% if cookiecutter.include_env == "yes" %}
+name: {{ cookiecutter.project_name | lower | replace(' ', '-')}}-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+{% endif %}

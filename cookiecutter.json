@@ -1,0 +1,8 @@
+{
+    "project_name": "Kite Project",
+    "author_name": "Your Name",
+    "include_env": [
+        "yes",
+        "no"
+    ]
+}
