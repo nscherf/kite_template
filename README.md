@@ -7,4 +7,4 @@ A lightweight project template for reproducible research in neuroscience, machin
 ## Usage
 
 ```bash
-cookiecutter https://github.com/nscherf/kite-template
+cookiecutter https://github.com/nscherf/kite_template
